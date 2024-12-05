@@ -1,6 +1,7 @@
 <script>
 	import { setContext } from 'svelte';
 	import { SvelteSet } from 'svelte/reactivity';
+	import { draw } from 'svelte/transition';
 
 	let { width = 100, height = 100, children } = $props();
 
